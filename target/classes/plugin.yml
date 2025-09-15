@@ -1,0 +1,21 @@
+name: DemoraMjolnir
+version: 1.0.0
+main: com.demora.demoramjolnir.DemoraMjolnir
+api-version: 1.21
+author: __DEMORA__
+description: Плагин на мьёльнир
+
+commands:
+  demoramjolnir:
+    description: Управление плагином Мьёльнира
+    usage: /demoramjolnir [give|reload] [игрок]
+    permission: demoramjolnir.give
+    permission-message: У вас нет прав для использования этой команды!
+
+permissions:
+  demoramjolnir.give:
+    description: Разрешает выдавать Мьёльнир игрокам
+    default: op
+  demoramjolnir.reload:
+    description: Разрешает перезагружать конфигурацию плагина
+    default: op

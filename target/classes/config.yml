@@ -1,0 +1,17 @@
+
+mjolnir:
+
+  damage:
+    melee_damage: 10.0
+    throw_damage: 15.0
+    area_damage: 12.0
+    
+  animation:
+    flight_speed: 1.7
+    return_speed: 1.4
+    rotation_speed: 8.0
+    return_rotation_multiplier: 1.2
+    
+  cooldown:
+    throw_duration: 10
+    melee_duration: 10
